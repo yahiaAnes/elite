@@ -1,0 +1,383 @@
+
+
+*{
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+    min-height: 100vh;
+    background-color: #F7FAFF;
+}
+.navbar{
+    background-color: #F7FAFF;
+}
+.dropdown .connexion{
+    background-color: #0061FF;
+    color: white;
+}
+header {
+padding: 20px;
+}
+.header_li{
+    margin-left: 16px;
+}
+header nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 0 40px;
+}
+
+nav a {
+text-decoration: none;
+padding: 10px;
+color: white;
+
+}
+
+nav a:hover {
+color: #222;
+}
+header .account{
+background-color: #E97F1D;
+padding: 10px;
+border-radius: 20px;
+display: flex;
+}
+
+main .main_text{
+    max-width: 700px;
+}
+main .main_text h1{
+    font-size: 50px;
+}
+
+main .main_text h1 span{
+    color: #0061FF;
+}
+
+main .main-image .img-fluid{
+    max-width: 400px;
+    max-height: 400px;
+}
+.main_button .btn{
+background-color: #0061FF;
+}
+.main_section .main_text .main_cards{
+
+width: auto;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #fff;
+color: #000;
+border-radius: 10px;
+box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.main_section .main_text .main_cards  a{
+text-decoration: none;
+color: #000;
+transition: 0.3s ease;
+}
+
+.main_section .main_text .main_cards  a:hover{
+color: #E97F1D;
+}
+
+
+
+
+
+/*________________________ A B O U T ________________________________*/
+
+.about{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: nowrap;
+}
+.about .image img{
+width: 350px;
+height: 500px;
+display: flex;
+justify-content: center;
+}
+.about .content h1{
+    font-size: 50px;
+}
+.about .content{
+max-width: 40rem;
+}
+.about .content .btn{
+    background-color: #0061FF;
+    color: white;
+}
+
+
+/*__________________S T A T I C S______________________*/
+
+.statics .boxes .box{
+background-color: #fff;
+border-radius: 10px;
+color: #000;
+}
+
+.statics .boxes .box .span_blue{
+    color: #0061FF;
+}
+.statics .content .left p{
+color: #0061FF;
+}
+.statics .boxes .box img{
+width: 60px;
+height: 60px;
+}
+
+
+.hikma svg{
+max-width: 100%;
+height: auto;
+display: block;
+margin: auto;
+}
+
+
+
+/*______________________ C O N T A C T ______________________________*/
+
+.contact .informations {
+max-width: 500px ;
+}
+
+.contact .informations h3 {
+color: #0061FF;
+}
+.contact .informations .social_media img{
+width: 30px;
+height: 30px;
+}
+
+.contact .informations .social_media a{
+text-decoration: none;
+color: #000;
+}
+.contact .inputs {
+width: 400px ;
+height: 600px;
+background-image: url('images/inputs.png');
+background-size: cover;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.contact .inputs input{
+height: 70px;
+border-radius: 10px;
+border: none;
+}
+.contact .inputs textarea{
+border-radius: 10px;
+border: none;
+height: 270px;
+}
+.contact .inputs button{
+width: 100px;
+background-color: #0061FF;
+color: white;
+}
+.contact .inputs .box1{
+height: 90px;
+width: 90px;
+top:373%;
+right: 1%;
+z-index: -1;
+border-radius: 10px;
+border: none;
+background-color: #E97F1D;
+position: fixed;
+filter: blur(5px);
+}
+.contact .inputs .box2{
+height: 90px;
+width: 90px;
+top:468%;
+right: 31%;
+z-index: -1;
+border-radius: 10px;
+border: none;
+background-color: #E97F1D;
+position: fixed;
+filter: blur(5px);
+}
+/*______________________________________ F O O T E R _______________________________*/
+
+
+footer{
+    background-color: #F7FAFF;
+}
+.footer-logo{
+    max-width: 150px;
+}
+footer .footer-social img{
+    width: 30px;
+}
+footer h3{
+    color: #0061FF;
+}
+/*______________________________________ F O O T E R _______________________________
+
+footer {
+position: relative;
+bottom: 0;
+left: 0;
+width: 100%;
+background-color: #333;
+color: #fff;
+}
+
+footer .footer-container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+footer .footer-logo {
+width: 200px;
+}
+
+footer .footer-menu {
+list-style: none;
+padding: 0;
+}
+
+footer .footer-menu li {
+display: inline-block;
+margin: 0 10px;
+}
+
+footer .footer-menu a {
+color: #fff;
+text-decoration: none;
+}
+
+footer .footer-text {
+margin: 10px 0;
+}
+
+footer .footer-social {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+footer .footer-social a {
+margin: 0 10px;
+}
+
+footer .footer-social img {
+width: 30px;
+}
+
+
+*/
+
+
+
+
+
+
+
+.cours{
+    display: none;
+    background-color: #f8f8f8;
+}
+.show_animation{
+    display: block;
+    animation: slideUp 0.5s ease-in-out forwards;
+}
+@keyframes slideUp {
+    from { opacity: 0;
+    transform: translateY(100px); }
+    to { opacity: 1;
+    transform: translateY(0); }
+  }
+
+ul li .module_btn {
+    min-width: 150px;
+    text-align: center;
+    background-color: #0061FF;
+    color: white;
+}
+
+.information-btn{
+    width: 20px;
+    height: 20px;
+}
+
+ .auth-bg{
+    background-image: url("images/login_bg.jpg") ;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+.rating-wrapper {
+    align-self: center;
+    box-shadow: 7px 7px 25px rgba(198, 206, 237, .7),
+                -7px -7px 35px rgba(255, 255, 255, .7),
+                inset 0px 0px 4px rgba(255, 255, 255, .9),
+                inset 7px 7px 15px rgba(198, 206, 237, .8); 
+    border-radius: 5rem;
+    display: inline-flex;
+    direction: rtl !important;
+    padding: 1.5rem 2.5rem;
+    margin-left: auto;
+    
+  
+    label {
+      color: #E1E6F6;
+      cursor: pointer;
+      display: inline-flex;
+      font-size: 3rem;
+      padding: 1rem .6rem;
+      transition: color 0.5s;
+    }
+    
+     svg {
+       -webkit-text-fill-color: transparent;
+       -webkit-filter: drop-shadow (4px 1px 6px rgba(198, 206, 237, 1));
+       filter:drop-shadow(5px 1px 3px rgba(198, 206, 237, 1));
+    }
+  
+    input {
+      height: 100%;
+      width: 100%;
+    }
+    
+    input {
+      display: none;
+    }
+  
+    label:hover,
+    label:hover ~ label,
+    input:checked ~ label  {
+      color: #34AC9E;
+    }
+  
+    label:hover,
+    label:hover ~ label,
+    input:checked ~ label  {
+      color: #34AC9E;
+    }
+  }

@@ -1,0 +1,167 @@
+
+
+*{
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+    min-height: 50vh;
+    background-image: url('/images/books.png');
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    background-color: #FBFBFB;
+}
+.dropdown .connexion{
+    background-color: #0061FF;
+    color: white;
+}
+header {
+padding: 20px;
+}
+.header_li{
+    margin-left: 16px;
+}
+header nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 0 40px;
+}
+
+nav a {
+text-decoration: none;
+padding: 10px;
+color: white;
+
+}
+
+nav a:hover {
+color: #222;
+}
+header .account{
+background-color: #E97F1D;
+padding: 10px;
+border-radius: 20px;
+display: flex;
+}
+
+main .main_text{
+    max-width: 700px;
+}
+main .main_text h1{
+    font-size: 50px;
+    
+    color: #F4D08E;
+}
+
+main .main_text h1 span{
+    color: #F4D08E;
+}
+
+main .main-image .img-fluid{
+    max-width: 400px;
+    max-height: 400px;
+}
+.main_button .btn{
+background-color: #0061FF;
+}
+.main_section .main_text .main_cards{
+
+width: auto;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #fff;
+color: #000;
+border-radius: 10px;
+box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.main_section .main_text .main_cards  a{
+text-decoration: none;
+color: #000;
+transition: 0.3s ease;
+}
+
+.main_section .main_text .main_cards  a:hover{
+color: #E97F1D;
+}
+
+
+/*-----------------------F O O T E R------------------------------*/
+
+
+
+footer{
+    background-color: #FBFBFB;
+}
+.footer-logo{
+    max-width: 150px;
+}
+footer .footer-social img{
+    width: 30px;
+}
+footer h3{
+    color: #F4D08E;
+}
+
+
+
+
+
+
+.rating-wrapper {
+    align-self: center;
+    
+    display: inline-flex;
+    direction: rtl !important;
+    padding: 10px;
+    margin-left: auto;
+    
+  
+    label {
+      color: #E1E6F6;
+      cursor: pointer;
+      display: inline-flex;
+      font-size: 2rem;
+      padding: 1rem .6rem;
+      transition: color 0.5s;
+    }
+    
+     svg {
+       -webkit-text-fill-color: transparent;
+       -webkit-filter: drop-shadow (4px 1px 6px rgba(198, 206, 237, 1));
+       filter:drop-shadow(5px 1px 3px rgba(198, 206, 237, 1));
+    }
+  
+    input {
+      height: 100%;
+      width: 100%;
+    }
+    
+    input {
+      display: none;
+    }
+  
+    label:hover,
+    label:hover ~ label,
+    input:checked ~ label  {
+      color: #FFD700;
+    }
+  
+    label:hover,
+    label:hover ~ label,
+    input:checked ~ label  {
+      color: #FFD700;
+    }
+  }
+.avgStars i{
+    color: #FFD700;
+}
